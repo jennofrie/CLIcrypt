@@ -1,15 +1,19 @@
 # jcrypt
 
-#Color will only work on Linux # But Will  run on Windows
+#Color Command  Line Interface will only work on Linux,  But Will  run on Windows w/o
 
-# Change key or use the default in 'fernet'
+#Change the key or use the default
 
-#change rootdir = FILE PATH TO ENCRYPT
+Before starting the jcrypt.py. Add File path and change extensions preferred.
 
-#change extensions =  YOUR PREFERRED EXT TO ENCRYPT
+rootdir = FILE PATH TO ENCRYPT
+
+extensions =  YOUR PREFERRED EXT TO ENCRYPT
 
 #usage:
 
-sudo jcrypt.py
+sudo python3 jcrypt.py
 
 option 1 to encrypt and option 2 to decrypt.
+
+ctrl-c to terminate program
